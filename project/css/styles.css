@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 92vh;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+header {
+    height: 8vh;
+    /* text-align: center; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: white;
+    font-family: "League Spartan", sans-serif;
+}
+
+header div h1 {
+    font-size: 24px;
+}
+
+.titulo2 {
+    color: red;
+}
+
+.titulo1 {
+    margin-left: 20px;
+}
+
+.titulo {
+    display: flex;
+}
+
+
+
+#carrosel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+}
+
+#carrosel a
+{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+.mySlides {
+    display: none;
+    width: 40vw;
+
+}
+.mySlides img {vertical-align: middle;
+border-radius: 10px;
+height: 50vh;}
+
+.slideshow-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40vw;
+    height: 50vh;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 0px 2px;
+    border-radius: 10px;
+}
+
+.text {
+    background-color: rgba(216, 216, 216, 0.479);
+  color: #777777;
+  font-size: 20px;
+  padding: 20px 0px;
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot
+{
+    background-color: rgb(201, 201, 201);
+    padding: 1px 10px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.active
+{
+    background-color: black;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+#formulario
+{
+    height: 30vw;
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#formulario form
+{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario form input[type="text"]
+{
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 4vh;
+    width: 30vw;
+    padding: 0px 0px 5px 10px;
+    font-weight: bold;
+}
+
+#formulario form input[type="text"]::placeholder
+{
+    color: black;
+    font-weight: bold;
+}
+
+#formulario form input[type="text"]:focus
+{
+    outline: none;
+}
+
+#formulario form input[type="submit"]
+{
+    width: 80px;
+    padding: 15px 5px;
+    margin-top: 2vh;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.4s;
+}
+
+#formulario form input[type="submit"]:hover
+{
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+
+/* #portifolios
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    margin-top: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.portifolio-externo-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    width: 70vw;
+}
+
+.cards-portifolio
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 10vw;
+    height: 35vh;
+    box-shadow: 0px 0px 6px 1px grey;
+    padding: 5vh 2vw;
+    font-size: 12px;
+    margin: 0 1vw;
+    transition: all 2s;
+}
+
+.cards-portifolio a
+{
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 15px 0px;
+    border-radius: 10px;
+    width: 8vw;;
+    margin-top: 2vh;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cards-portifolio a:hover
+{
+    text-decoration: underline 2px;
+}
+
+#portifolios img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all 2s;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+.cards-portifolio:hover 
+{
+    scale: 1.1;
+} */
