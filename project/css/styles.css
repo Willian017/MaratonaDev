@@ -353,13 +353,13 @@ footer h3
     box-shadow: 0 0 6px 1px grey;
 }
 
-.projeto-base p
+.projeto-base p, li
 {
     margin: 2vh 17vw;
     font-weight: normal;
 }
 
-.projeto-base h2
+.projeto-base h2,h3
 {
     margin: 1vh 17vw;
     font-weight: bold;
