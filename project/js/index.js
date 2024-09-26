@@ -1,5 +1,23 @@
-let slideIndex = 0;
+var slideIndex = 0;
 showSlides();
+
+function select(num)
+{
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++)
+        slides[i].style.display = "none";
+
+    for (i = 0; i < dots.length; i++)
+        dots[i].className =  ("dot");
+
+    slideIndex = num;
+
+    dots[num].className = dots[num].className.replace(" active", "");
+    slides[num].style.display = "block";  
+    dots[num].className += " active";
+}
         
 function showSlides() {
     let i;

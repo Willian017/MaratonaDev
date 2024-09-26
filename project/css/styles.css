@@ -115,6 +115,7 @@ height: 50vh;}
     padding: 1px 10px;
     margin: 5px;
     border-radius: 100%;
+    cursor: pointer;
 }
 
 .active
@@ -183,6 +184,7 @@ height: 50vh;}
     text-align: center;
     background-color: black;
     border-radius: 5px;
+    width: 100px;
     border: none;
     cursor: pointer;
     color: white;
